@@ -132,8 +132,19 @@ h2 {
 #face-up-card h2 {
   display: block;
 }
-
-
 /* /carta scoperta */
-
 /* /corpo del progetto */
+
+/* footer */
+footer {
+  padding-bottom: 50px;
+}
+
+/* titolo nel footer */
+footer h3 {
+  color: black;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+/* /titolo nel footer */
+/* /footer */
