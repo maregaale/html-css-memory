@@ -29,7 +29,6 @@ h1 {
 .container {
   width: 960px;
   height: 1200px;
-  background-color: red;
   margin:auto;
 }
 /* contenitore delle carte */
@@ -38,7 +37,6 @@ h1 {
   display: inline-block;
   height: 300px;
   width: 200px;
-  background-color: green;
   border-radius: 20px;
   margin: 40px 20px;
   background-image: url("../img/pattern.png");
@@ -47,13 +45,19 @@ h1 {
   position: relative;
 }
 
+/* .card.card-air-balloon {
+  background-image: url("../img/noun_air_balloon_3134741.png");
+} */
+
 /* titoli carte */
 h2 {
   text-align: center;
   position: absolute;
   width: 200px;
-  bottom: 30px;
+  font-size: 30px;
+  bottom: 20px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  display: none;
 }
 /* /titoli carte */
 
@@ -80,6 +84,17 @@ h2 {
 
 .tram {
   color: black;
+}
+
+.card:hover h2{
+  display: block;
+}
+
+.card.card-air-balloon:hover {
+  background-color: white;
+  background-image: url("../img/noun_air_balloon_3134741.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 /* /colori titoli carte */
 
