@@ -41,6 +41,46 @@ h1 {
   background-color: green;
   border-radius: 20px;
   margin: 40px 20px;
-  
+  background-image: url("../img/pattern.png");
+  background-size: contain;
+  background-repeat: repeat;
+  position: relative;
 }
+
+/* titoli carte */
+h2 {
+  text-align: center;
+  position: absolute;
+  width: 200px;
+  bottom: 30px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+/* /titoli carte */
+
+/* colori titoli carte */
+.balloon {
+  color: orange;
+}
+
+.tractor {
+  color: red;
+}
+
+.cruise-ship {
+  color: blue;
+}
+
+.bicycle {
+  color: green;
+}
+
+.submarine {
+  color: yellow;
+}
+
+.tram {
+  color: black;
+}
+/* /colori titoli carte */
+
 /* /corpo del progetto */
