@@ -33,6 +33,7 @@ h1 {
 }
 /* contenitore delle carte */
 
+/* struttura delle carte */
 .card {
   display: inline-block;
   height: 300px;
@@ -44,10 +45,7 @@ h1 {
   background-repeat: repeat;
   position: relative;
 }
-
-/* .card.card-air-balloon {
-  background-image: url("../img/noun_air_balloon_3134741.png");
-} */
+/* /struttura delle carte */
 
 /* titoli carte */
 h2 {
@@ -85,17 +83,23 @@ h2 {
 .tram {
   color: black;
 }
+/* /colori titoli carte */
 
+/* :hover delle carte */
 .card:hover h2{
   display: block;
 }
 
-.card.card-air-balloon:hover {
+.card:hover {
   background-color: white;
-  background-image: url("../img/noun_air_balloon_3134741.png");
   background-position: center;
   background-repeat: no-repeat;
 }
-/* /colori titoli carte */
+
+.card.card-balloon:hover {
+  background-image: url("../img/noun_air_balloon_3134741.png");
+}
+/* / :hover delle carte */
+
 
 /* /corpo del progetto */
