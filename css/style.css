@@ -28,7 +28,6 @@ h1 {
 /* contenitore delle carte */
 .container {
   width: 960px;
-  height: 1200px;
   margin:auto;
 }
 /* contenitore delle carte */
@@ -99,7 +98,42 @@ h2 {
 .card.card-balloon:hover {
   background-image: url("../img/noun_air_balloon_3134741.png");
 }
+
+.card.card-tractor:hover {
+  background-image: url("../img/noun_Tractor_3134797.png");
+}
+
+.card.card-ship:hover {
+  background-image: url("../img/noun_Cruise_Ship_3134824.png");
+}
+
+.card.card-bicycle:hover {
+  background-image: url("../img/noun_Bicycle_3134821.png");
+}
+
+.card.card-tram:hover {
+  background-image: url("../img/noun_Tram_3134750.png");
+}
+
+.card.card-submarine:hover {
+  background-image: url("../img/noun_Submarine_3134738.png");
+}
 /* / :hover delle carte */
 
+/* carta scoperta */
+#face-up-card {
+  background-image: url("../img/noun_air_balloon_3134741.png");
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+#face-up-card h2 {
+  display: block;
+}
+
+
+/* /carta scoperta */
 
 /* /corpo del progetto */
