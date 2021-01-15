@@ -43,6 +43,7 @@ h1 {
   background-size: contain;
   background-repeat: repeat;
   position: relative;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
 }
 /* /struttura delle carte */
 
@@ -126,7 +127,6 @@ h2 {
   background-color: white;
   background-position: center;
   background-repeat: no-repeat;
-  pointer-events: none;
 }
 
 #face-up-card h2 {
