@@ -4,10 +4,14 @@
   box-sizing: border-box;
 }
 
+/* font e sfondo */
 body {
   background-color: #ADD8E6;
   font-family: 'Nerko One', cursive;
 }
+/* /font e sfondo */
+
+/* intestazione e titolo */
  header {
    padding: 20px;
  }
@@ -18,3 +22,25 @@ h1 {
   color: white;
   text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.2);
 }
+/* /intestazione e titolo */
+
+/* corpo del progetto */
+/* contenitore delle carte */
+.container {
+  width: 960px;
+  height: 1200px;
+  background-color: red;
+  margin:auto;
+}
+/* contenitore delle carte */
+
+.card {
+  display: inline-block;
+  height: 300px;
+  width: 200px;
+  background-color: green;
+  border-radius: 20px;
+  margin: 40px 20px;
+  
+}
+/* /corpo del progetto */
